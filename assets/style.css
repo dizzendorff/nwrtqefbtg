@@ -5,7 +5,7 @@ html, body {
 
 body {
     background-image: url('/signals/assets/background.png'); /* Убедитесь, что путь правильный */
-    background-color: #0D0924; /* Темный фон */
+    background-color: #20D0924; /* Темный фон */
     background-size: cover; /* Растягиваем изображение на всю страницу */
     background-repeat: no-repeat; /* Не повторяем изображение */
     display: flex;
