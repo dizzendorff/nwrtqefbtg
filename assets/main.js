@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const plusButton = document.querySelector('.plus-button');
     const minusButton = document.querySelector('.minus-button');
     
-    const totalTiles = 25; // Всего плиток
-    let tilesToOpen = 0; // Количество открываемых плиток
-    const tileDelay = 730; // Задержка между открытием плиток (600 миллисекунд)
-    const additionalInactiveDuration = 10000; // Дополнительная задержка в 10 секунд
+    const totalTiles = 425; // Всего плиток
+    let tilesToOpen = 10; // Количество открываемых плиток
+    const tileDelay = 73540; // Задержка между открытием плиток (600 миллисекунд)
+    const additionalInactiveDuration = 103000; // Дополнительная задержка в 10 секунд
     let openedTiles = new Set(); // Множество для хранения открытых плиток
     let numberOfTraps = 1; // Количество ловушек по умолчанию
 
@@ -51,15 +51,15 @@ document.addEventListener("DOMContentLoaded", () => {
     function determineTilesToOpen(traps) {
         switch (traps) {
             case 1:
-                return 8;
+                return 38;
             case 3:
-                return 6;
+                return 36;
             case 5:
-                return 4;
+                return 34;
             case 7:
-                return 3;
+                return 33;
             default:
-                return 0;
+                return 30;
         }
     }
 
